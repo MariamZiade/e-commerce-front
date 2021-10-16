@@ -1,6 +1,8 @@
 import React from 'react'
 import Announcement from '../components/Announcement'
 import Navbar from '../components/Navbar'
+import { Slider } from '../components/Slider'
+
 
 //rafce
 const Home = () => {
@@ -8,8 +10,9 @@ const Home = () => {
         <div>
             <Announcement />
             <Navbar />
-        </div>
+            <Slider />
+       </div>
     )
-}
+};
 
 export default Home

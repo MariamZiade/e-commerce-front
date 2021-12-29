@@ -1,13 +1,12 @@
 import styled from "styled-components";
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@mui/icons-material";
-import WomanShopping from '../assets/images/portrait-young-happy-girl-holding-shopping-bags_171337-2608.jpg';
+import WomanShopping from '../assets/images/portrait-young-happy-girl-holding-shopping-bags.png';
 
 const Container = styled.div`
     width: 100%;
     height: 100vh;
     display: flex;
     position: relative;
-
 `
 const Arrow = styled.div`
 width: 50px;
@@ -41,7 +40,8 @@ height: 100%;
 flex: 1;
 `
 const Image = styled.img`
-height: 70%;
+height: 90%;
+margin-left: 100px;
 
 `
 const InfoContainer = styled.div`
@@ -62,9 +62,6 @@ letter-spacing: 3px;
 const Button = styled.button``
     
 
-
-
-
 export const Slider = () => {
     return (
         <Container>
@@ -77,9 +74,7 @@ export const Slider = () => {
                    <Image src={WomanShopping} alt ="Woman Shopping" />
                    </ImgContainer>
                    <InfoContainer>
-                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur elementum aliquet augue et mattis. Praesent ultricies, purus vitae venenatis tincidunt, nibh sapien convallis ligula, ut maximus ex leo vitae nulla. Phasellus hendrerit, purus non rhoncus lacinia, sem dolor cursus magna, non sodales augue ante et arcu. Cras congue arcu id urna bibendum, sit amet imperdiet dolor luctus. Nam sapien neque, consectetur id fermentum commodo, aliquet at magna. Duis et arcu eros. Phasellus ante eros, scelerisque nec magna auctor, eleifend placerat ligula. Donec tempus, mauris vitae commodo consectetur, est orci condimentum orci, nec bibendum nisl felis in nisl. Vestibulum a diam turpis. Sed convallis urna enim, ut dictum justo aliquam at. Mauris finibus quis nisi id vestibulum. Nam rutrum leo quis diam elementum iaculis quis consectetur justo. Vestibulum ultrices mollis felis eu accumsan. Praesent et ligula dolor. Maecenas mi dolor, faucibus sed justo quis, dignissim posuere lacus. Curabitur ac arcu mattis, tempor ipsum ac, porttitor augue.
-
-Morbi ac massa sollicitudin, cursus velit venenatis, facilisis justo. Integer sed pretium massa, sit amet ultrices lorem. Nam in ante quam. Ut finibus felis non est scelerisque, sed placerat ligula aliquet. In hac habitasse platea dictumst. Nam porttitor odio vitae justo sagittis venenatis. Curabitur id turpis magna. In at bibendum risus. Pellentesque consectetur non arcu eget luctus. Mauris mattis hendrerit tristique. Ut mollis, mauris quis mattis faucibus, tortor urna faucibus neque, quis sagittis urna mi ac leo. Mauris cursus neque ac urna laoreet interdum pulvinar sit amet nulla. Donec lacinia convallis justo, dapibus lacinia arcu porttitor nec. Suspendisse et felis eu ipsum luctus volutpat nec in elit.
+                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur elementum aliquet augue et mattis. Praesent ultricies, purus vitae venenatis tincidunt, nibh sapien 
                    </InfoContainer>
                </Slide>
             </Wrapper>
